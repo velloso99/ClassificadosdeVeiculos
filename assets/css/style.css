@@ -20,3 +20,12 @@ html{
     --cor-branca: #ffffff
     --cor-escura: #340474
 }
+/*TOPO SUPERIOR*/
+.super-topo{
+    width: 100%;
+    background: var(--cor-principal);
+}
+
+
+
+
