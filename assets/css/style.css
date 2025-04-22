@@ -21,7 +21,7 @@ html{
     --cor-escura: #340474
 }
 /*TOPO SUPERIOR*/
-.super-topo{
+.super-topo .super-topo-box{
     width: 100%;
     background: var(--cor-principal);
 }
