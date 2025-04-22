@@ -21,11 +21,16 @@ html{
     --cor-escura: #340474
 }
 /*TOPO SUPERIOR*/
+.super-topo{
+    width: 100%;
+}
 .super-topo .super-topo-box{
     width: 100%;
     background: var(--cor-principal);
 }
-
+.super-topo .super-topo-box-corpo{
+    display: flex;
+}
 
 
 
