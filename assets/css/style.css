@@ -16,24 +16,30 @@ html{
     font-size: 65.5%;
 }
 :root{
-    --cor-principal: #d117ff
-    --cor-branca: #ffffff
-    --cor-escura: #340474
+    --cor-principal: #d117ff;
+    --cor-branca: #ffffff;
+    --cor-escura: #340474;
 }
 
 /*TOPO SUPERIOR*/
-.super-topo .super-topo-box {
+.super-topo .super-topo-box{
     width: 100%;
     background: var(--cor-principal);
 }
-.super-topo .super-topo-box-corpo {
+.super-topo .super-topo-box .super-topo-box-corpo{
     display: flex;
     gap: 1rem;
-    align-items: center; /* Ajustado */
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-branca);
+    padding: 1rem 0;
+}
+.super-topo .super-topo-box .super-topo-box-corpo .col-1{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
     color: var(--cor-branca);
     margin-left: 13rem;
-    padding: 1rem; /* Opcional */
 }
-
-
 
