@@ -20,16 +20,19 @@ html{
     --cor-branca: #ffffff
     --cor-escura: #340474
 }
+
 /*TOPO SUPERIOR*/
-.super-topo{
-    width: 100%;
-}
-.super-topo .super-topo-box{
+.super-topo .super-topo-box {
     width: 100%;
     background: var(--cor-principal);
 }
-.super-topo .super-topo-box-corpo{
+.super-topo .super-topo-box-corpo {
     display: flex;
+    gap: 1rem;
+    align-items: center; /* Ajustado */
+    color: var(--cor-branca);
+    margin-left: 13rem;
+    padding: 1rem; /* Opcional */
 }
 
 
