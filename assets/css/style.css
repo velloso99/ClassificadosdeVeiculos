@@ -115,8 +115,63 @@ html{
     padding: 0 9.5%;
 }
 .topo-menu-site .logo img{
-    
+    width: 200px;
 }
+.topo-menu-site nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+nav .menuSite ul li{
+    padding: 2.5rem 0.5rem;
+}
+nav .menuSite .menuLInks{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+nav .menuSite .menuLInks li a{
+    position: relative;
+    color: var(--cor-escura);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+nav .menuAnuciar{
+    display: flex;
+    gap: 1,5rem;
+    align-items: center;
+}
+nav .menuAnuciar i{
+    font-size: 1.9rem;
+    color: var(--cor-escura);
+    cursor: pointer;
+}
+nav .menuAnuciar .addbtn{
+    background: var(--cor-principal);
+    font-size: 1.6rem;
+    position: relative;
+    padding: 1.2rem 1.5rem;
+    color: var(--cor-branca);
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.7s;
+}
+nav .menuAnuciar .addbtn:hover{
+    background: var(--cor-escura);
+    color: var(--cor-escura);
+}
+nav .menuAnuciar .addbtn,
+nav .menuAnuciar .addbtn:hover{
+    color: var(--cor-branca);
+    padding-right: 0.5rem;
+}
+
+
 
 
 
