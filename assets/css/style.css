@@ -127,18 +127,22 @@ html{
 nav .menuSite ul li{
     padding: 2.5rem 0.5rem;
 }
-nav .menuSite .menuLInks{
+nav .menuSite .menuLinks{
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
 }
-nav .menuSite .menuLInks li a{
+nav .menuSite .menuLinks li a{
     position: relative;
     color: var(--cor-escura);
     font-size: 1.4rem;
     font-weight: 600;
+}
+nav .menuSite ul i a:hover,
+nav .menuSite ul i a.active{
+    color: var(--cor-principal);
 }
 nav .menuAnuciar{
     display: flex;
@@ -170,8 +174,12 @@ nav .menuAnuciar .addbtn:hover{
     color: var(--cor-branca);
     padding-right: 0.5rem;
 }
-
-
+#menubtn{
+    font-size: 3.5rem;
+}
+nav .menuAnuciar i:hover{
+    color: var(--cor-principal);
+}
 
 
 
