@@ -106,23 +106,8 @@ html{
     top: 0;
     padding: 0.5rem 9.5%;
     background: var(--cor-branca);
-    box-shadow: 0 0 5px rgba(190,190, 190, 0.5),  
-    0 0 10x rgba(190,190, 190, 0.5);
+    box-shadow: 0 0 5px rgba(190,190, 190, 0.5), 0 0 10px rgba(190,190, 190, 0.5);
     z-index: 111;
-    transition: 0.4s ease;
-}
-.topo-menu-site.sticky{
-    padding: 0 9.5%;
-}
-.topo-menu-site .logo img{
-    width: 200px;
-}
-.topo-menu-site nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-.nav .menuSite{
-    padding: 2rem 0.5rem;
+    transition: o.4s ease;
+
 }
