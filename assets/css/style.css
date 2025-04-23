@@ -140,8 +140,8 @@ nav .menuSite .menuLinks li a{
     font-size: 1.4rem;
     font-weight: 600;
 }
-nav .menuSite ul i a:hover,
-nav .menuSite ul i a.active{
+nav .menuSite ul li a:hover,
+nav .menuSite ul li a.active{
     color: var(--cor-principal);
 }
 nav .menuAnuciar{
