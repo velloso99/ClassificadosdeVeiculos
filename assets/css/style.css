@@ -214,4 +214,38 @@ nav .menuSite ul li .menuSub li a:hover{
     font-size: 1.3rem;
     padding-left: 0.5rem;
 }
+.menuSub li .menuSub2{
+    position: absolute;
+    left: 182px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -3rem ;
+    align-items: left;
+    text-align: justify;
+    padding: 1rem 0 0;
+    background: var(--cor-branca);
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.5);
+    z-index: 111;
+    overflow: hidden;
+    display: none;
+}
+.menuSub li:hover .menuSub2{
+    display: flex;
+}
+.menuSub li .setabaixo{
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    color: var(--cor-escura);
+}
+.menuSub li:hover .setabaixo{
+    color: var(--cor-principal);
+}
+
+
+
+
+
+
 
