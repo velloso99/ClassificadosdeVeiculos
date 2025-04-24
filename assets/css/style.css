@@ -200,13 +200,18 @@ nav .menuSite ul li{
 nav .menuSite ul li:hover .menuSub{
     display: flex;
 }
-
 nav .menuSite ul li .menuSub li{
     border-bottom: 1px solid rgba(190, 190, 190, 0.5);
     padding: 0.5rem 0 1rem 1rem;
     z-index: 100;
     overflow: hidden;
 }
-
-
+nav .menuSite ul li .menuSub li a{
+    font-size: 1.2rem;
+    transition: 0.4s ease;
+}
+nav .menuSite ul li .menuSub li a:hover{
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+}
 
