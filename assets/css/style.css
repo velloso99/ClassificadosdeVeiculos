@@ -180,8 +180,33 @@ nav .menuAnuciar .addbtn:hover{
 nav .menuAnuciar i:hover{
     color: var(--cor-principal);
 }
+nav .menuSite ul li .menuSub{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: absolute;
+    top: 7rem;
+    text-align: justify;
+    width: 180px;
+    background-color: var(--cor-branca);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.5) ;
+    padding: 1rem 0 0;
+    display: none;
+}
+nav .menuSite ul li{
+    transition: 0.4s ease;
+}
+nav .menuSite ul li:hover .menuSub{
+    display: flex;
+}
 
-
+nav .menuSite ul li .menuSub li{
+    border-bottom: 1px solid rgba(190, 190, 190, 0.5);
+    padding: 0.5rem 0 1rem 1rem;
+    z-index: 100;
+    overflow: hidden;
+}
 
 
 
