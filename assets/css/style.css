@@ -244,7 +244,53 @@ nav .menuSite ul li .menuSub li a:hover{
 }
 
 
-
+/*INICIO CELULAR*/
+@media(max-width:1370px){
+    nav .menuSite ul li{
+        gap: 1ren;
+    }
+    nav .menuSite .menuLinks{
+        gap: 0.5rem;
+    }
+}
+@media(max-width:1190px){
+    nav .menuSite ul li{
+        padding: 2.1rem 0;
+    }
+    nav .menuAnuciar .addbtn{
+        display: none;
+    }
+}
+@media(max-width:991px){
+    nav .menuSite .menuLink{
+        position: absolute;
+        top: 5.3rem;
+        left: 0;
+        width: 100%;
+        display: block;
+        background: var(--cor-branca);
+        box-shadow: 0 0 5px rgba(190, 190,190, 0.5),0 0 10px rgba(190, 190,190, 0.5);
+        padding-left: 30px;
+        transition: 0.5s ease-in-out;
+    }
+    .topo-menu-site.sticky{
+        padding: 0.6rem 9.5rem;
+    }
+    nav .menuSite ul li{
+        padding: 1rem 0;
+    }
+    nav .menuSite ul li .menuSub{
+        position: sticky;
+        display: none;
+    }
+    .menuSub li .menuSub2{
+        position: sticky;
+        margin-top: 0rem;
+    }
+    nav .menuAnuciar i.cart{
+        display: none;
+    }
+}
 
 
 
